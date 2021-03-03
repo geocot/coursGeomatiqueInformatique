@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier programme JavaScript</title>
+
+</head>
+<body>
+    <h1>Mon premier programme JavaScript</h1>
+    <p id="paragraphe">Voici quelques mots...</p>
+    <button id="changementBtn">Changement</button>
+
+    <script>
+        document.getElementById("changementBtn").addEventListener("click", changementTexte);
+
+        function changementTexte(){
+            document.getElementById("paragraphe").innerHTML = "Le texte est maintenant changé, sans recharcher la page";
+        }
+    </script>
+
+</body>
+</html>
