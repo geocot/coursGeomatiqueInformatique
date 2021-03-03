@@ -1,0 +1,3 @@
+function ditBonjour(){
+    alert("Bonjour!");
+}
